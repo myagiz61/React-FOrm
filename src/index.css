@@ -1,0 +1,73 @@
+.Formcontainer {
+  width: 1150px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.BirtOp {
+  color: #0a58ca !important;
+  border: 1px solid #0a58ca;
+}
+
+@media (max-width: 720px) {
+  .Formcontainer {
+    height: 100%;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  input:not([type="radio"]) {
+    width: 100px !important;
+  }
+  .askeriDurum {
+    margin-top: 15px !important;
+    display: block !important;
+  }
+  .tescilInfo {
+    margin-top: 15px;
+  }
+
+  .drivingArea {
+    justify-content: center !important;
+    display: block !important;
+    align-items: center !important;
+  }
+
+  .engelArea {
+    margin-top: 10px !important;
+    display: block !important;
+  }
+
+  textarea {
+    margin-left: 20px;
+    width: 450px !important;
+  }
+  .detayinfo {
+    margin-top: 15px;
+    margin-left: 25px !important;
+  }
+  .classDetay {
+    margin-top: 15px;
+  }
+  .validationNumber {
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 240px;
+  }
+  .sigaraArea {
+    display: block !important;
+  }
+
+  .sigaraInfo {
+    width: 200px;
+  }
+
+  .saveBtn {
+    margin-left: 280px !important;
+  }
+}
